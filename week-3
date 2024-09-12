@@ -1,0 +1,95 @@
+root123@root123:~$ cd 1221ita
+root123@root123:~/1221ita$ git config --global user.name "PPravalika17"
+root123@root123:~/1221ita$ git config --global user.name "22251a1221.com"
+root123@root123:~/1221ita$ git config --list
+user.name=22251a1221.com
+user.email=sreenithamaths@gmail.com
+root123@root123:~/1221ita$ git config --global user.email "22251a1221@gmail.com"root123@root123:~/1221ita$ git config --list
+user.name=22251a1221.com
+user.email=22251a1221@gmail.com
+root123@root123:~/1221ita$ git config --global user.name "PPravalika17"
+root123@root123:~/1221ita$ git config --global user.email "22251a1221@gmail.com"
+root123@root123:~/1221ita$ git config --list
+user.name=PPravalika17
+user.email=22251a1221@gmail.com
+root123@root123:~/1221ita$ git clone https://github.com/PPravalika17/pravalikaweek3
+Cloning into 'pravalikaweek3'...
+Username for 'https://github.com': PPravalika17
+Password for 'https://PPravalika17@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/PPravalika17/pravalikaweek3/'
+root123@root123:~/1221ita$ git clone https://github.com/PPravalika17/pravalikaweek3
+Cloning into 'pravalikaweek3'...
+Username for 'https://github.com': PPravalika17
+Password for 'https://PPravalika17@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/PPravalika17/pravalikaweek3/'
+root123@root123:~/1221ita$ git clone https://github.com/PPravalika17/pravalikaweek3
+Cloning into 'pravalikaweek3'...
+Username for 'https://github.com': PPravalika17
+Password for 'https://PPravalika17@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/PPravalika17/pravalikaweek3/'
+root123@root123:~/1221ita$ git clone https://github.com/PPravalika17/pravalikaweek3.git
+Cloning into 'pravalikaweek3'...
+Username for 'https://github.com': PPravalika17
+Password for 'https://PPravalika17@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/PPravalika17/pravalikaweek3.git/'
+root123@root123:~/1221ita$ git clone https://github.com/PPravalika17/week3.git
+Cloning into 'week3'...
+warning: You appear to have cloned an empty repository.
+root123@root123:~/1221ita$ cd week3
+root123@root123:~/1221ita/week3$ gedit webapp.html
+root123@root123:~/1221ita/week3$ firefox webapp.html
+root123@root123:~/1221ita/week3$ firefox webapp.html
+root123@root123:~/1221ita/week3$ git add webapp.html
+root123@root123:~/1221ita/week3$ git commit -m "webapp.html"
+[master (root-commit) 47668d1] webapp.html
+ 1 file changed, 88 insertions(+)
+ create mode 100644 webapp.html
+root123@root123:~/1221ita/week3$ git branch
+* master
+root123@root123:~/1221ita/week3$ git branch master1
+root123@root123:~/1221ita/week3$ git branch 
+* master
+  master1
+root123@root123:~/1221ita/week3$ git checkout master1
+Switched to branch 'master1'
+root123@root123:~/1221ita/week3$ git checkout master
+Switched to branch 'master'
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+root123@root123:~/1221ita/week3$ git checkout master1
+Switched to branch 'master1'
+root123@root123:~/1221ita/week3$ gedit sample.txt
+root123@root123:~/1221ita/week3$ ls
+sample.txt  webapp.html
+root123@root123:~/1221ita/week3$ git checkout master
+Switched to branch 'master'
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+root123@root123:~/1221ita/week3$ git branch -d master1
+Deleted branch master1 (was 47668d1).
+root123@root123:~/1221ita/week3$ git remote -v
+origin	https://github.com/PPravalika17/week3.git (fetch)
+origin	https://github.com/PPravalika17/week3.git (push)
+root123@root123:~/1221ita/week3$ git remote set-url origin https://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@github.com/PPravalika17/week3.git
+root123@root123:~/1221ita/week3$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://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@github.com/PPravalika17/week3.git'
+root123@root123:~/1221ita/week3$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.12 KiB | 1.12 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/PPravalika17/week3.git
+ * [new branch]      master -> master
+root123@root123:~/1221ita/week3$ 
+
